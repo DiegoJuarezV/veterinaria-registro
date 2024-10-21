@@ -14,3 +14,4 @@ Se emplea el uso de distintos hooks como:
 # React + TypeScript + Vite
 
 - Se desarrolla mediante la herramienta de compilación Vite 
+- De igual manera se emplea Zustand para realizar el estado global de los componentes
