@@ -15,3 +15,4 @@ Se emplea el uso de distintos hooks como:
 
 - Se desarrolla mediante la herramienta de compilación Vite 
 - De igual manera se emplea Zustand para realizar el estado global de los componentes
+- Para una mejor experiencia de usuario se utiliza la libreria de toastify
