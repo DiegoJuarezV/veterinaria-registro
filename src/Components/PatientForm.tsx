@@ -22,7 +22,9 @@ const PatientForm = () => {
     }
   }, [activeId])
 
-  const { register, handleSubmit, setValue, formState: { errors }, reset } = useForm<DraftPatient>();
+  const { register, handleSubmit, setValue, formState: { errors }, reset } = useForm<DraftPatient>({
+    mode: 'all'
+  });
 
   const savePatient = (data: DraftPatient) => {
     if (activeId) {
